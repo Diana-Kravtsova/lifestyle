@@ -1,0 +1,32 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: var(--white);
+    padding: 14px 24px;
+}
+
+.nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.nav__link {
+    color: var(--black);
+    text-decoration: none;
+    padding: 0 8px;
+}
+
+.nav__link:hover {
+    color: #737373;
+    text-decoration: none;
+}

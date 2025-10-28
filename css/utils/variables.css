@@ -25,11 +25,18 @@ body {
     font-weight: 400;
 }
 
-.article__title {
+.title {
     font-family: var(--font-accent);
     font-weight: 700;
     font-size: var(--text-16xl);
 }
+
+.subtitle{
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    font-size: 22px;
+}
+
 
 .btn {
     font-family: var(--font-primary);
