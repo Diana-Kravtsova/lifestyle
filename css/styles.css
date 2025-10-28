@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text: #666666;
+    --white: #ffffff;
+}
+
+.header {
+
+}
+
+.header__nav {
+
+}
+
+.nav__list {
+
+}
+
+.nav__item {
+
+}
+
+.nav__item--active {
+
+}
