@@ -7,18 +7,18 @@
 
 .hero__container{
     display: flex;
-    justify-content: center;
-    padding: 80px;
+    justify-content: space-between;
+    padding: 75px 80px;
 }
 
 .hero__title{
     flex-grow: 0.5;
+    line-height: 1.28;
 }
 
 .hero__content{
     flex-grow: 0.5;
     max-width: 599px;
-    padding-top: 12px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -26,5 +26,5 @@
 
 .hero__btn{
     display: flex;
-    gap: 16px;
+    gap: 14px;
 }

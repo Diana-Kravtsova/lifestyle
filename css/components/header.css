@@ -6,9 +6,7 @@
     z-index: 1000;
     background: var(--white);
     padding: 14px 24px;
-}
-
-.nav__container {
+    min-height: 68px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,13 +14,14 @@
 
 .nav__list {
     display: flex;
-    gap: 1rem;
+    gap: 16px;
     list-style: none;
 }
 
 .nav__link {
     color: var(--black);
     text-decoration: none;
+    gap: 10px;
     padding: 0 8px;
 }
 
