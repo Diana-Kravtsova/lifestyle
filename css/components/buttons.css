@@ -2,37 +2,41 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 8px 24px;
     border: none;
-    border-radius: 8px;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease;
     height: 40px;
+    background-color: inherit;
 }
 
 .btn--primary {
+    padding: 8px 24px;
+    border-radius: 8px;
     border: 1px solid var(--black);
     background: var(--white);
-    border-radius: 8px;
 }
 
 .btn--primary:hover {
+    padding: 8px 24px;
+    border-radius: 8px;
     color: var(--white);
     background: var(--black);
     border: 1px solid var(--black);
 }
 
 .btn--secondary {
+    padding: 8px 24px;
+    border-radius: 8px;
     color: var(--white);
     background: var(--black);
     border: 1px solid var(--black);
-    border-radius: 8px;
 }
 
 .btn--secondary:hover {
+    padding: 8px 24px;
+    border-radius: 8px;
     color: var(--black);
     background: var(--white);
     border: 1px solid var(--black);
-    border-radius: 8px;
 }
