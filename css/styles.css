@@ -19,3 +19,7 @@
     --white: #ffffff;
     --grey: #F9F8FE;
 }
+
+body img{
+    border-radius: 8px;
+}
