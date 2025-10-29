@@ -4,6 +4,12 @@
     gap: 80px;
 }
 
+.article__buttons{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
 .article__revolutionize{
     display: flex;
     flex-direction: column;
@@ -17,7 +23,7 @@
 
 .revolutionize__blocks{
     display: flex;
-    margin-top: 30px;
+    margin: 30px 0 26px;
     gap: 16px;
 }
 
@@ -26,13 +32,6 @@
     flex-direction: column;
     gap: 19px;
     font-size: var(--text-base);
-}
-
-.revolutionize__buttons{
-    display: flex;
-    align-items: center;
-    gap: 13px;
-    margin-top: 26px;
 }
 
 .article__discover1{
@@ -59,10 +58,4 @@
     flex-direction: column;
     gap: 18px;
     font-size: 16px;
-}
-
-.discover1__buttons {
-    display: flex;
-    align-items: center;
-    gap: 13px;
 }
