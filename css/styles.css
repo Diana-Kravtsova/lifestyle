@@ -20,6 +20,10 @@
     --grey: #F9F8FE;
 }
 
-body img{
+.articles__item:nth-child(2n){
+    background-color: var(--grey);
+}
+
+main img{
     border-radius: 8px;
 }

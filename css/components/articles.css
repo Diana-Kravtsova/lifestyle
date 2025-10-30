@@ -1,10 +1,10 @@
-.article__container{
+.articles__item{
     padding: 89px 80px;
     display: flex;
     gap: 80px;
 }
 
-.article__buttons{
+.article__actions{
     display: flex;
     align-items: center;
     gap: 13px;
@@ -31,7 +31,6 @@
     display: flex;
     flex-direction: column;
     gap: 19px;
-    font-size: var(--text-base);
 }
 
 .article__discover1{
@@ -58,4 +57,13 @@
     flex-direction: column;
     gap: 18px;
     font-size: 16px;
+}
+
+.article__discover2{
+    display: flex;
+}
+
+.discover2__text{
+    display: flex;
+    flex-direction: column;
 }

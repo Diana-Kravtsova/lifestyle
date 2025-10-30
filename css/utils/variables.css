@@ -21,7 +21,7 @@ body {
     font-size: var(--text-lg);
 }
 
-.header {
+.nav {
     font-family: var(--font-primary);
     font-size: var(--text-base);
 }
@@ -45,12 +45,12 @@ body {
     font-size: var(--text-lg);
 }
 
+.block__description{
+    font-size: var(--text-base);
+}
+
 .btn {
     font-family: var(--font-primary);
     font-weight: 600;
     font-size: var(--text-sm);
-}
-
-.background__grey{
-    background-color: var(--grey);
 }

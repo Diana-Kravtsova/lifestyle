@@ -5,11 +5,12 @@
     <title>Lifestyle</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<header class="header">
+<header>
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__item">
@@ -25,27 +26,22 @@
                 <a href="#contact_us" class="nav__link">Contact us</a>
             </li>
         </ul>
-    </nav>
-    <div class="nav__actions">
+
         <button class="btn btn--secondary">Contact us</button>
-    </div>
+    </nav>
 </header>
 
 <main class="main">
     <section class="hero">
         <img src="images/articles/hero_yoga.png" alt="yoga" class="hero__image">
 
-        <div class="hero__container">
-            <div class="hero__title">
-                <a class="title">Stay tuned,<br/>stay healthy</a>
-            </div>
-            <div class="hero__content">
-                <div>
-                    <p>Experience a comprehensive blend of content and resources<br/>to enhance and inspire every facet
-                        of your lifestyle.</p>
-                </div>
+        <div class="hero__item">
+            <h1 class="title">Stay tuned,<br/>stay healthy</h1>
 
-                <div class="hero__btn">
+            <div class="hero__content">
+                <p>Experience a comprehensive blend of content and resources<br/>to enhance and inspire every facet of your lifestyle.</p>
+
+                <div class="hero__actions">
                     <button class="btn btn--secondary">Explore</button>
                     <button class="btn btn--primary">Sign Up</button>
                 </div>
@@ -54,42 +50,48 @@
     </section>
 
     <section class="articles">
-        <div class="article__container background__grey" id="revolutionize">
+        <article class="articles__item" id="revolutionize">
             <div class="article__revolutionize">
-                <a class="article__name">Revolutionize</a>
-                <a class="title">Discover a New Way of Living</a>
-                <p>LifeBlend Hub offers a unique and comprehensive approach to modern living. With a curated blend of
+                <span class="article__name">Revolutionize</span>
+                <h2 class="title">Discover a New Way of Living</h2>
+                <p class="article__description">LifeBlend Hub offers a unique and comprehensive approach to modern
+                    living. With a curated blend of
                     content and resources, we aim to enhance and inspire every facet of your lifestyle.</p>
 
                 <div class="revolutionize__blocks">
                     <div class="revolutionize__block">
-                        <a class="subtitle">Explore More</a>
-                        <p>Unlock your potential with our diverse range of articles, guides, and tools.</p>
+                        <h3 class="subtitle">Explore More</h3>
+                        <p class="block__description">Unlock your potential with our diverse range of articles, guides,
+                            and tools.</p>
                     </div>
 
                     <div class="revolutionize__block">
-                        <a class="subtitle">Get Inspired</a>
-                        <p>Discover stories of transformation and success from our vibrant community.</p>
+                        <h3 class="subtitle">Get Inspired</h3>
+                        <p class="block__description">Discover stories of transformation and success from our vibrant
+                            community.</p>
                     </div>
                 </div>
 
-                <div class="article__buttons">
+                <div class="article__actions">
                     <button class="btn btn--primary">Learn more</button>
                     <button class="btn">Sign Up</button>
                     <img src="images/icons/Arrow.png" height="24" width="24" alt=">"/>
                 </div>
             </div>
 
-            <img class="img__revolutionize" src="images/articles/revolutionize_section.png" height="601" width="601" alt="tennis"/>
-        </div>
+            <img class="img__revolutionize" src="images/articles/revolutionize_section.png" height="601" width="601"
+                 alt="tennis"/>
+        </article>
 
-        <div class="article__container" id="discover">
+        <article class="articles__item" id="discover">
             <div class="article__discover1">
                 <div class="discover1__text">
-                    <a class="article__name">Discover</a>
-                    <a class="title">Unlock the Power of LifeBlend Hub</a>
-                    <p>LifeBlend Hub is your one-stop destination for all things related to health, productivity, leisure,
-                        and personal growth. Explore our comprehensive blend of content and resources to enhance and inspire
+                    <span class="article__name">Discover</span>
+                    <h2 class="title">Unlock the Power of LifeBlend Hub</h2>
+                    <p>LifeBlend Hub is your one-stop destination for all things related to health, productivity,
+                        leisure,
+                        and personal growth. Explore our comprehensive blend of content and resources to enhance and
+                        inspire
                         every facet of your lifestyle.</p>
                 </div>
 
@@ -97,36 +99,145 @@
                     <div class="discover1__block">
                         <img src="images/articles/discover1_health_and_wellness.png" height="222" width="395"
                              alt="picture of running field"/>
-                        <a class="subtitle">Health and Wellness</a>
-                        <p>Discover expert advice and tips on maintaining a healthy lifestyle.</p>
+                        <h3 class="subtitle">Health and Wellness</h3>
+                        <p class="block__description">Discover expert advice and tips on maintaining a healthy
+                            lifestyle.</p>
                     </div>
 
                     <div class="discover1__block">
                         <img src="images/articles/discover1_boost_your_productivity.png" height="222" width="395"
                              alt="picture of basketball"/>
-                        <a class="subtitle">Boost Your Productivity</a>
-                        <p>Learn effective strategies to maximize your productivity and achieve your goals.</p>
+                        <h3 class="subtitle">Boost Your Productivity</h3>
+                        <p class="block__description">Learn effective strategies to maximize your productivity and
+                            achieve your goals.</p>
                     </div>
 
                     <div class="discover1__block">
                         <img src="images/articles/discover1_find_joy_in_leisure.png" height="222" width="395"
                              alt="floor of basketball"/>
-                        <a class="subtitle">Find Joy in Leisure</a>
-                        <p>Discover exciting activities and hobbies to make the most of your leisure time.</p>
+                        <h3 class="subtitle">Find Joy in Leisure</h3>
+                        <p class="block__description">Discover exciting activities and hobbies to make the most of your
+                            leisure time.</p>
                     </div>
                 </div>
 
-                <div class="article__buttons">
+                <div class="article__actions">
                     <button class="btn btn--primary">Join</button>
                     <button class="btn">Learn more</button>
                     <img src="images/icons/Arrow.png" height="24" width="24" alt=">"/>
                 </div>
             </div>
-        </div>
+        </article>
+
+        <article class="articles__item article__discover2">
+            <div class="discover2__text">
+                <span class="article__name">Discover</span>
+                <h2 class="title">Unlock the Secrets to a Balanced Lifestyle</h2>
+                <p>LifeBlend Hub provides a comprehensive blend of content and resources to help you achieve
+                    balance in every aspect of your life. From wellness tips and personal development strategies
+                    to home organization hacks and travel inspiration, we've got you covered.</p>
+
+                <div class="article__actions">
+                    <button class="btn btn--primary">Learn more</button>
+                    <button class="btn">Sign Up</button>
+                    <img src="images/icons/Arrow.png" height="24" width="24" alt=">"/>
+                </div>
+            </div>
+
+            <img src="images/articles/discover2_bicycle.png" height="601" width="601" alt="bicycle"/>
+        </article>
+
+        <article class="articles__item article__discover3" id="explore">
+            <h2 class="title">Discover a World of Inspiration and Resources on LifeBlend Hub</h2>
+
+            <div class="discover3__blocks">
+                <div class="discover3__block">
+                    <img src="images/articles/discover3_unlock.png" height="222" width="395" alt="running road"/>
+                    <h3 class="subtitle">Unlock Your Full Potential with LifeBlend Hub's Comprehensive Content</h3>
+                    <p class="block__description">Engage with our curated content and resources to enhance every aspect of your lifestyle.</p>
+
+                    <div class="article__actions">
+                        <button class="btn">Explore</button>
+                        <img src="images/icons/Arrow.png" height="24" width="24" alt=">"/>
+                    </div>
+                </div>
+
+                <div class="discover3__block">
+                    <img src="images/articles/discover3_stay.png" height="222" width="393" alt="running road"/>
+                    <h3 class="subtitle">Stay Informed and Inspired with LifeBlend Hub's Diverse Content Content</h3>
+                    <p class="block__description">Access our extensive collection of articles, videos, and guides to enrich your daily life.</p>
+
+                    <div class="article__actions">
+                        <button class="btn">Discover</button>
+                        <img src="images/icons/Arrow.png" height="24" width="24" alt=">"/>
+                    </div>
+                </div>
+
+                <div class="discover3__block">
+                    <img src="images/articles/discover3_transform.png" height="222" width="395" alt="boots"/>
+                    <h3 class="subtitle">Transform Your Lifestyle with LifeBlend Hub's Expertly Curated Resources</h3>
+                    <p class="block__description">Find the tools and resources you need to achieve your goals and live your best life.</p>
+
+                    <div class="article__actions">
+                        <button class="btn">Get Started</button>
+                        <img src="images/icons/Arrow.png" height="24" width="24" alt=">"/>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="articles__item" id="inspiration">
+            <div class="stats__content">
+                <h2 class="title">Discover the Impact of LifeBlend Hub with These Fascinating Statistics</h2>
+                <p>LifeBlend Hub has reached millions of users worldwide, providing valuable resources and
+                    inspiring content to enhance their modern lifestyles.</p>
+
+                <div class="stats__blocks">
+                    <div>
+                        <span class="title">50%</span>
+                        <p class="block__description">Users report improved well-being and satisfaction with LifeBlend Hub.</p>
+                    </div>
+
+                    <div>
+                        <span class="title">50%</span>
+                        <p class="block__description">LifeBlend Hub has become an essential part of users' lives.</p>
+                    </div>
+                </div>
+
+                <div class="article__actions">
+                    <button class="btn btn--primary">Learn more</button>
+                    <button class="btn">Sign Up</button>
+                    <img src="images/icons/Arrow.png" height="24" width="24" alt=">"/>
+                </div>
+            </div>
+
+            <img src="images/articles/discover4_runners.png" height="601" width="601" alt="runners"/>
+        </article>
     </section>
 
-    <section class="connect">
+    <section class="subscribe">
+        <h2></h2>
+        <p></p>
+        <form>
+            <input>
+            <button></button>
+        </form>
+        <span></span>
+    </section>
 
+    <section class="connect" id="contact_us">
+        <span></span>
+        <h2></h2>
+        <p></p>
+        <div>
+            <img src="">
+            <h3></h3>
+        </div>
+
+        <div class="article__actions">
+            <button class="btn">Get Directions</button>
+            <img src="images/icons/Arrow.png" height="24" width="24" alt=">"/>
+        </div>
     </section>
 </main>
 
