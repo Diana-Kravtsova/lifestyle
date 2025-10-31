@@ -1,6 +1,8 @@
+.footer,
 .articles__item{
     padding: 89px 80px;
     display: flex;
+    align-items: center;
     gap: 80px;
 }
 
@@ -15,8 +17,8 @@
 .article__revolutionize{
     display: flex;
     flex-direction: column;
-    margin: 44px 0;
-    gap: 21px;
+    justify-content: space-between;
+    min-height: 561px;
 }
 
 .img__revolutionize {
@@ -29,17 +31,23 @@
     gap: 16px;
 }
 
+.revolutionize__text{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
 .revolutionize__block{
     display: flex;
     flex-direction: column;
-    gap: 19px;
+    gap: 16px;
 }
 
 .article__discover1{
     display: flex;
     flex-direction: column;
     gap: 80px;
-    margin-top: 18px;
+    margin: 20px 0;
 }
 
 .discover1__text{
@@ -63,9 +71,16 @@
 
 .article__discover2{
     display: flex;
+    flex-direction: column;
+    gap: 48px;
 }
 
 .discover2__text{
     display: flex;
     flex-direction: column;
+    gap: 21px;
+}
+
+.img__discover2{
+    margin: 22px 0;
 }
