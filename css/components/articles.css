@@ -84,3 +84,28 @@
 .img__discover2{
     margin: 22px 0;
 }
+
+.article__discover3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discover3__text{
+    text-align: center;
+    margin: 9px 0 3px;
+}
+
+.discover3__blocks{
+    display: flex;
+    gap: 48px;
+}
+
+.discover3__block{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 6px;
+}
