@@ -4,6 +4,8 @@
     gap: 80px;
 }
 
+.hero__actions,
+.contact__actions,
 .article__actions{
     display: flex;
     align-items: center;

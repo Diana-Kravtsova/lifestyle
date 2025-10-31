@@ -33,19 +33,20 @@ body {
     line-height: 1.28;
 }
 
-.subtitle{
+.subtitle {
     font-family: var(--font-secondary);
     font-weight: 700;
     font-size: 22px;
 }
 
-.article__name{
+.article__name {
     font-family: var(--font-secondary);
     font-weight: 500;
     font-size: var(--text-lg);
 }
 
-.block__description{
+.contact__description,
+.block__description {
     font-size: var(--text-base);
 }
 
@@ -53,4 +54,9 @@ body {
     font-family: var(--font-primary);
     font-weight: 600;
     font-size: var(--text-sm);
+}
+
+.terms {
+    font-size: var(--text-xs);
+    color: #676767;
 }

@@ -22,8 +22,3 @@
     flex-direction: column;
     gap: 22px;
 }
-
-.hero__actions{
-    display: flex;
-    gap: 14px;
-}
