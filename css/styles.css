@@ -27,3 +27,9 @@
 main img{
     border-radius: 8px;
 }
+
+.actions{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}

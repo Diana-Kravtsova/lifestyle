@@ -1,4 +1,5 @@
-.footer,
+/* General styles for articles*/
+
 .articles__item{
     padding: 89px 80px;
     display: flex;
@@ -6,48 +7,44 @@
     gap: 80px;
 }
 
-.hero__actions,
-.contact__actions,
-.article__actions{
-    display: flex;
-    align-items: center;
-    gap: 13px;
-}
-
-.article__revolutionize{
+.article__content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    min-height: 561px;
+    gap: 48px;
 }
 
+.article__text{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+/* Components */
+
+/* Revolutionize article */
 .img__revolutionize {
-    margin: 22px 0;
+    margin: 23px 0;
 }
 
 .revolutionize__blocks{
     display: flex;
-    margin: 30px 0 26px;
-    gap: 16px;
-}
-
-.revolutionize__text{
-    display: flex;
-    flex-direction: column;
-    gap: 22px;
 }
 
 .revolutionize__block{
     display: flex;
     flex-direction: column;
     gap: 16px;
+    flex-basis: 100%;
+    padding-right: 12px;
 }
 
+/* Discover 1 article */
 .article__discover1{
     display: flex;
     flex-direction: column;
     gap: 80px;
     margin: 20px 0;
+    align-items: flex-start;
 }
 
 .discover1__text{
@@ -66,15 +63,8 @@
     display: flex;
     flex-direction: column;
     gap: 18px;
-    font-size: 16px;
 }
-
-.article__discover2{
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
-}
-
+/* Discover 2 article */
 .discover2__text{
     display: flex;
     flex-direction: column;
@@ -85,6 +75,7 @@
     margin: 22px 0;
 }
 
+/* Discover 3 article */
 .article__discover3{
     display: flex;
     flex-direction: column;
@@ -108,4 +99,31 @@
     align-items: center;
     gap: 16px;
     margin-bottom: 6px;
+}
+
+/* Statistics Article */
+.stats__content{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    padding: 3px 0 0;
+}
+
+.stats__blocks{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 6px;
+}
+
+.stats__block{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    flex-basis: 100%;
+}
+
+.stats__text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
