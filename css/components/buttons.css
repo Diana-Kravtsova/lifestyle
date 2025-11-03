@@ -8,6 +8,7 @@
     transition: all 0.3s ease;
     height: 40px;
     background-color: inherit;
+    white-space: nowrap;
 }
 
 .btn--primary {

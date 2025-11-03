@@ -64,3 +64,9 @@ body {
 .stats__percent{
     font-size: var(--text-16xl);
 }
+
+.input{
+    font-family: var(--font-primary);
+    font-size: var(--text-sm);
+    line-height: 1;
+}
