@@ -45,6 +45,7 @@ body {
     font-size: var(--text-lg);
 }
 
+.footer__links,
 .contact__block,
 .contact__description,
 .block__description {
@@ -70,4 +71,11 @@ body {
     font-family: var(--font-primary);
     font-size: var(--text-sm);
     line-height: 1;
+}
+
+.logo{
+    font-family: var(--font-accent);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.28;
 }
