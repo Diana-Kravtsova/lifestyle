@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     gap: 80px;
+    justify-content: space-between;
 }
 
 .article__content{
@@ -157,4 +158,27 @@
     display: flex;
     gap: 16px;
     min-width: 483px;
+}
+
+.contact__text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 4px 0 1px;
+}
+
+.contact__block{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.directions{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.img__contact{
+    margin-top: 209px;
 }

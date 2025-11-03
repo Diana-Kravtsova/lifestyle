@@ -45,6 +45,7 @@ body {
     font-size: var(--text-lg);
 }
 
+.contact__block,
 .contact__description,
 .block__description {
     font-size: var(--text-base);
