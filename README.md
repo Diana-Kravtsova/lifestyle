@@ -2,7 +2,7 @@
 <a href="https://diana-kravtsova.github.io/lifestyle/" style="background-color: #C3AFFF; color: black; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;">DEMO</a>
 
 ## 🚀 Project Description
-Lifestyle-themed SPA with responsive design.
+Lifestyle-themed one page site with responsive design.
 
 ## 🛠 Technologies
 - HTML5
