@@ -5,8 +5,9 @@
     <title>Lifestyle</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-          rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="images/articles/hero_yoga.png" fetchpriority="high">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -33,7 +34,14 @@
 
 <main class="main">
     <section class="hero">
-        <img src="images/articles/hero_yoga.png" alt="yoga" class="hero__image">
+        <img src="images/articles/hero_yoga.png"
+             alt="yoga"
+             class="hero__image"
+             height="663"
+             width="1440"
+             fetchpriority="high"
+             loading="eager"
+        >
 
         <div class="hero__item">
             <h1 class="title">Stay tuned,<br/>stay healthy</h1>
@@ -49,7 +57,7 @@
         </div>
     </section>
 
-    <section class="articles">
+    <div class="articles">
         <article class="articles__item" id="revolutionize">
             <div class="article__content">
                 <div class="article__text">
@@ -164,7 +172,7 @@
                 </div>
 
                 <div class="discover3__block">
-                    <img src="images/articles/discover3_stay.png" height="222" width="393" alt="running road"/>
+                    <img src="images/articles/discover3_stay.png" height="222" width="393" alt="man lay on running road"/>
                     <h3 class="subtitle">Stay Informed and Inspired with LifeBlend Hub's Diverse Content Content</h3>
                     <p class="block__description">Access our extensive collection of articles, videos, and guides to enrich your daily life.</p>
 
@@ -216,7 +224,7 @@
 
             <img src="images/articles/discover4_runners.png" height="601" width="601" alt="runners"/>
         </article>
-    </section>
+    </div>
 
     <section class="subscribe">
         <div class="subscribe__text">
@@ -226,8 +234,14 @@
 
         <div class="subscribe__input">
             <form class="subscribe__form">
-                <input class="input" type="email" name="user_email" placeholder="Enter your email">
-                <button class="btn btn--secondary">Sign in</button>
+                <input
+                    class="input"
+                    type="email"
+                    name="user_email"
+                    placeholder="Enter your email"
+                    aria-label="Email address for newsletter"
+                >
+                <button type="submit" class="btn btn--secondary">Sign in</button>
             </form>
 
             <small class="terms">By clicking Sign Up, you agree to our Terms and Conditions.</small>
@@ -283,7 +297,13 @@
 
         <div class="footer__input">
             <form class="footer__form">
-                <input class="input" type="email" name="user_email" placeholder="Your email">
+                <input
+                    class="input"
+                    type="email"
+                    name="user_email"
+                    placeholder="Your email"
+                    aria-label="Email address for newsletter"
+                >
                 <button class="btn btn--secondary">Subscribe</button>
             </form>
 

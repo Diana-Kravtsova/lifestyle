@@ -160,6 +160,7 @@
     min-width: 483px;
 }
 
+/* Contact  block */
 .contact__text{
     display: flex;
     flex-direction: column;
