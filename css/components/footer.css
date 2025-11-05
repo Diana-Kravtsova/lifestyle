@@ -58,3 +58,22 @@
     align-items: center;
     gap: 8px;
 }
+
+@media (max-width: 768px) {
+    .footer{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .footer__form{
+        width: auto;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    .footer__content{
+        flex-basis:100%
+    }
+    .footer .subtitle{
+        white-space: nowrap;
+    }
+}
