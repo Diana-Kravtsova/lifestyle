@@ -21,6 +21,10 @@
     --grey: #F9F8FE;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .articles__item:nth-child(2n){
     background-color: var(--grey);
 }
