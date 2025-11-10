@@ -17,7 +17,8 @@
 .article__text{
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 20px;
+    margin-bottom: 5px;
 }
 
 /* Components */
@@ -44,14 +45,14 @@
     display: flex;
     flex-direction: column;
     gap: 80px;
-    margin: 20px 0;
     align-items: flex-start;
 }
 
 .discover1__text{
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 20px;
     max-width: 848px;
 }
 
@@ -63,8 +64,13 @@
 .discover1__block{
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 19px;
 }
+
+.discover1__actions{
+    margin-bottom: 20px;
+}
+
 /* Discover 2 article */
 .discover2__text{
     display: flex;
@@ -107,7 +113,7 @@
     display: flex;
     flex-direction: column;
     gap: 41px;
-    padding: 3px 0 0;
+    padding: 4px 0 0;
 }
 
 .stats__blocks{
