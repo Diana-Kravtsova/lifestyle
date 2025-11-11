@@ -212,23 +212,40 @@
     }
 }
 
+@media (max-width: 1161px) {
+    .articles__item{
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img__contact{
+        margin-top: 10px;
+    }
+}
+
 @media (max-width: 768px) {
     .articles__item,
     .discover1__blocks,
     .revolutionize__blocks,
     .discover3__blocks,
-    .stats__blocks{
+    .stats__blocks {
+        padding: 5px;
         display: flex;
         flex-wrap: wrap;
         gap: 16px;
     }
 
-    .discover1__block,
-    .revolutionize__block,
     .discover3__block,
     .stats__block {
         flex: 1 1 100%;
-        min-width: 395px;
+        max-width: 360px;
+    }
+
+    .revolutionize__block,
+    .discover1__block {
+        flex: 1 1 100%;
     }
 
     img{
