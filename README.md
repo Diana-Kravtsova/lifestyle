@@ -16,6 +16,16 @@ Lifestyle-themed SPA with responsive design.
 - BEM Methodology — [bem.info](https://ru.bem.info/methodology/quick-start/).
 - HTML/CSS Reference — [WebRef.ru](https://webref.ru/).
 
+## 📃 Reports
+
+- [WAVE](https://wave.webaim.org/report#/https://diana-kravtsova.github.io/lifestyle/)
+- [W3C Validator](https://validator.w3.org/nu/?showimagereport=yes&doc=https%3A%2F%2Fdiana-kravtsova.github.io%2Flifestyle%2F)
+
+<details>
+  <summary>Click to see lighthouse report</summary>
+  <img src="images/reports/lighthouse1.webp" alt="lighthouse1">
+  <img src="images/reports/lighthouse2.webp" alt="lighthouse2">
+</details>
 
 ## 📦 Installation and launch
 ```bash
