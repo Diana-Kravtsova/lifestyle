@@ -28,3 +28,10 @@
     color: #737373;
     text-decoration: none;
 }
+
+@media (max-width: 600px) {
+    .nav__list{
+        display: flex;
+        flex-direction: column;
+    }
+}

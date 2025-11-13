@@ -41,3 +41,12 @@
     background: var(--white);
     border: 1px solid var(--black);
 }
+
+.btn--arrow {
+    position: relative;
+    gap: 10px;
+}
+
+.btn--arrow:hover {
+    transform: translateY(-20%);
+}

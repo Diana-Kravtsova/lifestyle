@@ -17,7 +17,8 @@
 .article__text{
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 20px;
+    margin-bottom: 5px;
 }
 
 /* Components */
@@ -44,14 +45,14 @@
     display: flex;
     flex-direction: column;
     gap: 80px;
-    margin: 20px 0;
     align-items: flex-start;
 }
 
 .discover1__text{
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 20px;
     max-width: 848px;
 }
 
@@ -63,8 +64,13 @@
 .discover1__block{
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 19px;
 }
+
+.discover1__actions{
+    margin-bottom: 20px;
+}
+
 /* Discover 2 article */
 .discover2__text{
     display: flex;
@@ -107,7 +113,7 @@
     display: flex;
     flex-direction: column;
     gap: 41px;
-    padding: 3px 0 0;
+    padding: 4px 0 0;
 }
 
 .stats__blocks{
@@ -185,22 +191,69 @@
 }
 
 /* Adaptivity */
+@media (max-width: 1438px) {
+    .article__discover3,
+    .article__discover1{
+        display: flex;
+        align-items: center;
+    }
+
+    .discover3__blocks,
+    .discover1__blocks{
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 1 calc(50% - 20px);
+        justify-content: center;
+    }
+
+    .discover3__block,
+    .discover1__block{
+        max-width: 396px;
+    }
+}
+
+@media (max-width: 1161px) {
+    .articles__item{
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img__contact{
+        margin-top: 10px;
+    }
+}
+
 @media (max-width: 768px) {
     .articles__item,
     .discover1__blocks,
     .revolutionize__blocks,
     .discover3__blocks,
-    .stats__blocks{
+    .stats__blocks {
+        padding: 5px;
         display: flex;
         flex-wrap: wrap;
         gap: 16px;
     }
 
-    .discover1__block,
-    .revolutionize__block,
     .discover3__block,
     .stats__block {
         flex: 1 1 100%;
-        min-width: 395px;
+        max-width: 360px;
+    }
+
+    .revolutionize__block,
+    .discover1__block {
+        flex: 1 1 100%;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    .subscribe__form{
+        min-width: 100%;
     }
 }
