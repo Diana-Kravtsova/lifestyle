@@ -1,10 +1,12 @@
 # Lifestyle
+
 [DEMO](https://diana-kravtsova.github.io/lifestyle/)
 
 ## 🚀 Project Description
 Lifestyle-themed one page site with responsive design.
 
 ## 🛠 Technologies
+
 - HTML5
 - CSS3
 
@@ -26,8 +28,16 @@ Lifestyle-themed one page site with responsive design.
   <img src="images/reports/lighthouse1.webp" alt="lighthouse1">
   <img src="images/reports/lighthouse2.webp" alt="lighthouse2">
 </details>
+<details>  
+    <summary>Click to see that the page fully matches the layout.</summary>  
+    <img src="images/reports/pixel_perfect1.webp" alt="pixel_perfect1">  
+    <img src="images/reports/pixel_perfect2.webp" alt="pixel_perfect2">  
+    <img src="images/reports/pixel_perfect3.webp" alt="pixel_perfect3"> 
+    <img src="images/reports/pixel_perfect4.webp" alt="pixel_perfect4">
+</details>
 
 ## 📦 Installation and launch
+
 ```bash
 git clone https://github.com/Diana-Kravtsova/lifestyle
 cd lifestyle
