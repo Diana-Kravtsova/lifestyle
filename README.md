@@ -3,8 +3,7 @@
 [DEMO](https://diana-kravtsova.github.io/lifestyle/)
 
 ## 🚀 Project Description
-
-Lifestyle-themed SPA with responsive design.
+Lifestyle-themed one page site with responsive design.
 
 ## 🛠 Technologies
 
